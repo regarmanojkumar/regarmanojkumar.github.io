@@ -1,5 +1,12 @@
 # regarmanojkumar.github.io
-Let's try blogging
+My blog
+
+## Jekyll commands sheet
+* ``gem install bundler``
+* ``bundle install --path vendor/path``
+* ``bundle exec jekyll clean``
+* ``bundle exec jekyll serve``
+* ``JEKYLL_ENV=production bundle exec jekyll build``
 
 ## License
 
