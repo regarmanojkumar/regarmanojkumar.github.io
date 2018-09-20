@@ -7,6 +7,7 @@ My blog
 * ``bundle exec jekyll clean``
 * ``bundle exec jekyll serve``
 * ``JEKYLL_ENV=production bundle exec jekyll build``
+* ``JEKYLL_ENV=development bundle exec jekyll build``
 
 ## License
 
