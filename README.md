@@ -1,4 +1,4 @@
-# regarmanojkumar.github.io
+# regarm.github.io
 My blog
 
 ## Jekyll commands sheet
