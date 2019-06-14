@@ -2,8 +2,6 @@
 My blog
 
 ## Jekyll commands sheet
-* ``gem install bundler jekyll``
-* ``gem install bundler``
 * ``bundle install --path vendor/path``
 * ``bundle exec jekyll clean``
 * ``bundle exec jekyll serve``
