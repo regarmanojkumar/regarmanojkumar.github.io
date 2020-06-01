@@ -9,7 +9,7 @@
       </div>
     {% endif %}
 
-    <div class="custom-logo-site-title">
+    <div class="custom-logo-site-title" style="{% if site.custom_logo.enabled %}display:none{% endif %}">
       <a href="{{ '/' | relative_url}}"  class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
         <span class="site-title">{{ site.title }}</span>
@@ -17,9 +17,9 @@
       </a>
     </div>
       {% if site.seo %}
-        <h1 class="site-subtitle" itemprop="description">{{ site.subtitle }}</h1>
+        <h1 class="site-subtitle" itemprop="description" style="{% if site.custom_logo.enabled %}display:none{% endif %}">{{ site.subtitle }}</h1>
       {% else %}
-        <p class="site-subtitle">{{ site.subtitle }}</p>
+        <p class="site-subtitle" style="{% if site.custom_logo.enabled %}display:none{% endif %}">{{ site.subtitle }}</p>
       {% endif %}
   </div>
 

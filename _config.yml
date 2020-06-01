@@ -4,8 +4,8 @@
 # ---------------------------------------------------------------
 
 # Site
-title: regar
-subtitle: manoj
+title: Piñata
+subtitle: Piñata of Life
 description: Personal blog of Manoj Kumar Regar
 author: Manoj Kumar Regar
 repository: regarm/regarm.github.io
@@ -76,7 +76,7 @@ plugins:
 # ---------------------------------------------------------------
 
 # Put your favicon.ico into `assets/` directory.
-favicon: /assets/favicon.ico
+favicon: /assets/spirit.svg
 
 # Set default keywords (Use a comma to separate)
 keywords:
@@ -93,7 +93,7 @@ since: 2018
 authoricon: heart
 
 # Footer `powered-by` and `theme-info` copyright
-copyright: true
+copyright: false
 
 # ---------------------------------------------------------------
 # SEO Settings
@@ -151,8 +151,8 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-# scheme: Muse
-scheme: Mist
+scheme: Muse
+# scheme: Mist
 # scheme: Pisces
 
 
@@ -227,7 +227,7 @@ social_icons:
   enable: true
   # Icon Mappings.
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
-  Github: github-square
+  Github: github
   Linkedin: linkedin
   # Facebook: facebook-square
   # Twitter: twitter
@@ -236,7 +236,7 @@ social_icons:
 
 # Sidebar Avatar
 # in directory: /assets/images/avatar.gif
-avatar: /assets/images/me.jpg
+avatar: /assets/spirit.svg
 
 
 # Table Of Contents in the Sidebar
@@ -267,8 +267,8 @@ sidebar:
   #  - always  expand for all pages automatically
   #  - hide    expand only when click on the sidebar toggle icon.
   #  - remove  Totally remove sidebar including sidebar toggle.
-  # display: post
-  display: always
+  display: post
+  # display: always
   #display: hide
   #display: remove
 
@@ -348,8 +348,8 @@ post_copyright:
 #   enabled: [true/false] - Replace with specific image
 #   image: url-of-image   - Images's url
 custom_logo:
-  enabled: false
-  image:
+  enabled: true
+  image: /assets/spirit.svg
 
 
 # Code Highlight theme
