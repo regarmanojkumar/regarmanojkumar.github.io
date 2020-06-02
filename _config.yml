@@ -76,7 +76,7 @@ plugins:
 # ---------------------------------------------------------------
 
 # Put your favicon.ico into `assets/` directory.
-favicon: /assets/spirit.svg
+favicon: /assets/spirit.png
 
 # Set default keywords (Use a comma to separate)
 keywords:
@@ -236,7 +236,7 @@ social_icons:
 
 # Sidebar Avatar
 # in directory: /assets/images/avatar.gif
-avatar: /assets/spirit.svg
+avatar: /assets/spirit.png
 
 
 # Table Of Contents in the Sidebar
@@ -349,7 +349,7 @@ post_copyright:
 #   image: url-of-image   - Images's url
 custom_logo:
   enabled: true
-  image: /assets/spirit.svg
+  image: /assets/spirit.png
 
 
 # Code Highlight theme
